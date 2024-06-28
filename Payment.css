@@ -1,0 +1,57 @@
+body{
+    background-image: url("Payment.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 18px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: chocolate;
+    margin: 80px;
+}
+h1,h2{
+    text-transform: uppercase;
+}
+.main_heading{
+    text-align: center;
+}
+input[type="submit"]{
+    background-color: rgb(46, 189, 105);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50%;
+}
+input[type="submit"]:hover{
+    background-color: rgb(60, 97, 50);
+}
+input[type="reset"]{
+    background-color: blueviolet;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 25%;
+}
+input[type="reset"]:hover{
+    background-color: rgb(154, 117, 189);
+}
+textarea{
+    width: 100%;
+    margin: 5px;
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid lightgoldenrodyellow;
+    background: rgb(116, 240, 99);
+    color: rgb(9, 19, 16);
+    box-shadow: 1px 1px 2px aquamarine;
+    border-radius: 10px;
+    padding: 3px;
+    display: inline-block;
+    cursor: pointer;
+}
